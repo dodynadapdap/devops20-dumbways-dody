@@ -1,12 +1,19 @@
 # TASK: 
 1. Perbedaan antara IP Private & Public, serta IP Dynamic & Static!
+   - IP Privat adalah  alamat IP yang digunakan di dalam jaringan lokal, contohnya localhost:
+   - Ip Public adalah IP digunakan oleh setiap perangkat untuk terhubung ke internet, sehingga terhubung ke internet secara keseluruhan 
+   - Ip Dynamic itu adalah dimana alamat IPnya itu berubah ubah ketika terhubung ke jaringan lain
+   - Ip Static adalah dimana alamat Ipnya itu di tetapkan secara manual 
 2. Buat penjelasan singkat tentang Virtualization!
+   Virtualisasi adalah teknologi yang dapat Anda gunakan untuk membuat representasi virtual dari server, penyimpanan, jaringan, dan mesin fisik lainnya
+
 3. Buat rancangan sebuah jaringan dengan spesifikasi sebagai berikut!
       - CIDR Block : 192.168.1.xxx/24
       - Subnet : 255.255.255.0
       - Gateway : 192.168.1.1
-(Gunakan app.diagrams.net untuk membuat diagramnya, Referensi gambar sudah disertakan)
-4. Buat step-by-step untuk menginstall Virutal Machine via VMware, Virtualbox atau VM pilihan kalian!
+   (Gunakan app.diagrams.net untuk membuat diagramnya, Referensi gambar sudah disertakan)
+   ![Text Alternatif](Foto/18.png)
+6. Buat step-by-step untuk menginstall Virutal Machine via VMware, Virtualbox atau VM pilihan kalian!
    1) Klik Create new virtual machine dan pilih
       ![Text Alternatif](Foto/1.png)
    2) masukan file ubuntu yang telah di download
