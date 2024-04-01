@@ -57,11 +57,13 @@
        ![Text Alternatif](Foto/16.png)
    17) Langkah terakhir kita coba ping 8.8.8.8 maka akan menghasilkan berikut
        ![Text Alternatif](Foto/17.png)
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
 >>>>>>> task
 =======
 (Gunakan app.diagrams.net untuk membuat diagramnya, Referensi gambar sudah disertakan)
 4. Buat step-by-step untuk menginstall Virutal Machine via VMware, Virtualbox atau VM pilihan kalian!
 >>>>>>> 43d2dc4b491711d121b477a0679a3ba91551af8e
+=======
+>>>>>>> 4fda518a046e53a4a7868cc07909104baedda780
