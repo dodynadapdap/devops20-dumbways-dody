@@ -48,4 +48,7 @@
        ![Text Alternatif](Foto/16.png)
    17) Langkah terakhir kita coba ping 8.8.8.8 maka akan menghasilkan berikut
        ![Text Alternatif](Foto/17.png)
+<<<<<<< HEAD
 
+=======
+>>>>>>> task
