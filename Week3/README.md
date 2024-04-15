@@ -45,6 +45,7 @@
       ```
       node -v
       ```
+      kemudian
       ```
       npm -v
       ```
@@ -77,6 +78,7 @@
       ```
       ![Text Alternatif](photos/n3.png)
    6) terakhir test di browser
+      
       ![Text Alternatif](photos/n4.png)
 
 
