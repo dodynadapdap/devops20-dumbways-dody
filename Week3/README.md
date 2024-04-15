@@ -139,8 +139,35 @@
       ![Text Alternatif](photos/g4.png)
    6) jalankan file yang sudah kita sebagai berikut
       ![Text Alternatif](photos/g5.png)
-Repository
-```https://github.com/dumbwaysdev/wayshub-frontend```
 
-Cara Run Aplikasi :
-`npm run start`
+
+
+
+
+
+# TASK2:
+1. Jelaskan apa itu Web server dan gambarkan bagaimana cara webserver bekerja.
+
+   **Web server** adalah serangkaian perangkat keras (hardware) dan perangkat lunak (software) di dalam sebuah server.Dari sisi software, yang berfungsi sebagai medium untuk menerima permintaan       berupa halaman web dalam protokol HTTP atau HTTPS. Setelah menerima permintaan, web server akan memuat dan mengirim halaman yang diminta untuk disajikan di browser pengguna, misalnya Google        Chrome, Mozilla Firefox, Safari, dan sebagainya. Sementara dari sisi hardware, web server terhubung ke internet untuk bertukar informasi (data atau file) di antara perangkat lain yang saling       terhubung. Data yang dimaksud bisa berupa file HTML, gambar, file JavaScript, atau stylesheet CSS. Perangkat keras web server juga berfungsi untuk menyimpan software web server.
+
+   CARA KERJANYA ITU
+   * User memasukkan permintaan lewat browser
+   * Browser mendapat alamat IP domain dan mencarinya ke DNS server
+   * Browser meminta data yang dibutuhkan melalui HTTP/HTTPS
+   * Web server mencari data yang diminta browser dalam hosting
+   * Browser kemudian terhubung ke web server dan mengirimkan request file web yang diminta melalui HTTP
+   * Web server menerima request dan meresponnya dengan mengirimkan file web yang diminta melalui protokol HTTP. Namun jika data tidak ketemu, web server akan mengirimkan halaman error
+   * Browser menampilkan informasi kepada user
+     
+3. Buatlah Reverse Proxy untuk aplilkasi yang sudah kalian deploy kemarin. (wayshub), untuk domain nya sesuaikan nama masing" ex: alvin.xyz .
+4. Jelaskan apa itu load balance.
+   Load balancing adalah sebuah solusi yang dapat Anda terapkan untuk menstabilkan server. Load balancing merupakan proses pendistribusian traffic atau lalu lintas jaringan secara efisien ke dalam    sekelompok server, atau yang lebih dikenal dengan server pool atau server farm. Load balancing ini berguna agar salah satu server dari website yang mendapatkan banyak lalu linta kunjungan tidak    mengalami kelebihan beban. ketika salah satu server mati server yang lain bisa menghandlenya
+5. implementasikan loadbalancing kepada aplikasi wayshub yang telah kalian gunakan.
+   1) buatkan 2 mesin atau lebih
+   2) siapkan kedua mesin dengan kebutuhan yang diinginkan seperti clone github, intall nvm, node, dan npm
+   3) jalankan kedua mesin dengan menggunakan
+      ```
+      npm start
+      ```
+      ###### mesin1
+      ###### mesin1
