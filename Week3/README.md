@@ -124,6 +124,7 @@
       ```
    3) Selanjutnya masukkan path go pada .bashrc
       ![Text Alternatif](photos/g1.png)
+      
    4) cek atau untuk bisa menjalankan golang
       ```
       exec bash
