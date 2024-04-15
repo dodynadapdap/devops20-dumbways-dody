@@ -123,6 +123,7 @@
       wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz && sudo su
       ```
    3) Selanjutnya masukkan path go pada .bashrc
+      
       ![Text Alternatif](photos/g1.png)
       
    4) cek atau untuk bisa menjalankan golang
@@ -140,6 +141,7 @@
       nano index.go
       ```
       isi file sebagai berikut
+      
       ![Text Alternatif](photos/g4.png)
    6) jalankan file yang sudah kita sebagai berikut
       ![Text Alternatif](photos/g5.png)
