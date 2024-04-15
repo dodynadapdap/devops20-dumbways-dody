@@ -183,6 +183,7 @@
       ```
       
       isi sebagai berikut
+      
       ![Text Alternatif](photos/t22.png)
 
       kemudian kita tambahkan file konfigurasi yang sudah kita buat kedalam nginx.conf
@@ -197,12 +198,15 @@
       ![Text Alternatif](photos/t23.png)
       
       tambahkan berikut
+      
       ![Text Alternatif](photos/t24.png)
       
       memeriksa apakah konfigurasi kita sudah benar atau tidak
+      
       ![Text Alternatif](photos/t25.png)
       
       cek status nginx
+      
       ![Text Alternatif](photos/t26.png)
      
 3. Jelaskan apa itu load balance.
