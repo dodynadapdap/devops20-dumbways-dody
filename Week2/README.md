@@ -51,11 +51,14 @@
    5) beri ijin untuk eksekusi file dengan perintah berikut
       ```
       chmod +x nginx.sh
-
+      ```
+      
       ![Text Alternatif](foto/6.png)
       
    7) kemudian jalankan script dengan perintah berikut
+      ```
       ./nginx.sh
+      ```
       
       ![Text Alternatif](foto/7.png)
       
