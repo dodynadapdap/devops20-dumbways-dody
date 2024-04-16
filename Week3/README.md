@@ -45,6 +45,7 @@
       ```
       node -v
       ```
+      kemudian
       ```
       npm -v
       ```
@@ -77,6 +78,7 @@
       ```
       ![Text Alternatif](photos/n3.png)
    6) terakhir test di browser
+      
       ![Text Alternatif](photos/n4.png)
 
 
@@ -104,6 +106,7 @@
       ```
       ![Text Alternatif](photos/p3.png)
    5) testing di browser
+      
       ![Text Alternatif](photos/p4.png)
       
 
@@ -119,8 +122,10 @@
       ```
       wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz && sudo su
       ```
+      
    3) Selanjutnya masukkan path go pada .bashrc
-      ![Text Alternatif](photos/g1.png)
+       ![Text Alternatif](photos/g1.png)
+      
    4) cek atau untuk bisa menjalankan golang
       ```
       exec bash
@@ -129,18 +134,109 @@
       ```
       sudo nano .bashrc
       ```
+      
       kemudian tambahkan potongan file berikut
       ![Text Alternatif](photos/g2.png)
-   5) kemudian kita membuat file golang di dalam direktori yang sudah kita buatkan
+      
+   6) kemudian kita membuat file golang di dalam direktori yang sudah kita buatkan
       ```
       nano index.go
       ```
       isi file sebagai berikut
+      
       ![Text Alternatif](photos/g4.png)
-   6) jalankan file yang sudah kita sebagai berikut
+   7) jalankan file yang sudah kita sebagai berikut
       ![Text Alternatif](photos/g5.png)
-Repository
-```https://github.com/dumbwaysdev/wayshub-frontend```
 
-Cara Run Aplikasi :
-`npm run start`
+
+
+
+
+
+# TASK2:
+1. Jelaskan apa itu Web server dan gambarkan bagaimana cara webserver bekerja.
+
+   **Web server** adalah serangkaian perangkat keras (hardware) dan perangkat lunak (software) di dalam sebuah server.Dari sisi software, yang berfungsi sebagai medium untuk menerima permintaan       berupa halaman web dalam protokol HTTP atau HTTPS. Setelah menerima permintaan, web server akan memuat dan mengirim halaman yang diminta untuk disajikan di browser pengguna, misalnya Google        Chrome, Mozilla Firefox, Safari, dan sebagainya. Sementara dari sisi hardware, web server terhubung ke internet untuk bertukar informasi (data atau file) di antara perangkat lain yang saling       terhubung. Data yang dimaksud bisa berupa file HTML, gambar, file JavaScript, atau stylesheet CSS. Perangkat keras web server juga berfungsi untuk menyimpan software web server.
+
+   CARA KERJANYA ITU
+   * User memasukkan permintaan lewat browser
+   * Browser mendapat alamat IP domain dan mencarinya ke DNS server
+   * Browser meminta data yang dibutuhkan melalui HTTP/HTTPS
+   * Web server mencari data yang diminta browser dalam hosting
+   * Browser kemudian terhubung ke web server dan mengirimkan request file web yang diminta melalui HTTP
+   * Web server menerima request dan meresponnya dengan mengirimkan file web yang diminta melalui protokol HTTP. Namun jika data tidak ketemu, web server akan mengirimkan halaman error
+   * Browser menampilkan informasi kepada user
+     
+2. Buatlah Reverse Proxy untuk aplilkasi yang sudah kalian deploy kemarin. (wayshub), untuk domain nya sesuaikan nama masing" ex: alvin.xyz .
+   1) masuk terlebih dahulu kedalam direkoti nginx
+      ![Text Alternatif](photos/t21.png)
+   2) buat konfigurasi baru
+      ```
+      sudo mkdir apps
+      ```
+      ```
+      cd app
+      ```
+      kemudian buat file baru didalam direktori yang sudah dibuatkan
+      ```
+      sudo vim reverser-proxy.conf
+      ```
+      
+      isi sebagai berikut
+      
+      ![Text Alternatif](photos/t22.png)
+
+      kemudian kita tambahkan file konfigurasi yang sudah kita buat kedalam nginx.conf
+      ```
+      cd ..
+      ```
+      
+      ```
+      vim nginx.conf
+      ```
+      
+      ![Text Alternatif](photos/t23.png)
+      
+      tambahkan berikut
+      
+      ![Text Alternatif](photos/t24.png)
+      
+      memeriksa apakah konfigurasi kita sudah benar atau tidak
+      
+      ![Text Alternatif](photos/t25.png)
+      
+      cek status nginx
+      
+      ![Text Alternatif](photos/t26.png)
+     
+3. Jelaskan apa itu load balance.
+   Load balancing adalah sebuah solusi yang dapat Anda terapkan untuk menstabilkan server. Load balancing merupakan proses pendistribusian traffic atau lalu lintas jaringan secara efisien ke dalam    sekelompok server, atau yang lebih         dikenal dengan server pool atau server farm. Load balancing ini berguna agar salah satu server dari website yang mendapatkan banyak lalu linta kunjungan tidak    mengalami kelebihan beban. ketika salah satu server mati server yang lain      bisa menghandlenya
+4. implementasikan loadbalancing kepada aplikasi wayshub yang telah kalian gunakan.
+   1) buatkan 2 mesin atau lebih
+   2) siapkan kedua mesin dengan kebutuhan yang diinginkan seperti clone github, intall nvm, node, dan npm
+   3) jalankan kedua mesin dengan menggunakan
+      ```
+      npm start
+      ```
+      ###### mesin1
+      ![Text Alternatif](photos/t241.png)
+      ###### mesin1
+      ![Text Alternatif](photos/t242.png)
+      
+      ubah konfigurasi pada mesin utama kita yaitu kita memasukkan ip dari masing” server
+      ![Text Alternatif](photos/t243.png)
+      
+      maka hasilnya sebagai berikut
+      ![Text Alternatif](photos/t244.png)
+      
+      ika kita memtikan kedua mesin maka mesin utama akan menampilkan hasil berikut
+      ![Text Alternatif](photos/t245.png)
+
+
+
+
+# CHALANGE:
+![Text Alternatif](photos/c1.png)
+![Text Alternatif](photos/c2.png)
+![Text Alternatif](photos/c3.png)
+
