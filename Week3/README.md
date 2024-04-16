@@ -124,9 +124,11 @@
       ```
       
    3) Selanjutnya masukkan path go pada .bashrc
+
+      
        ![Text Alternatif](photos/g1.png)
       
-   4) cek atau untuk bisa menjalankan golang
+   5) cek atau untuk bisa menjalankan golang
       ```
       exec bash
       ```
@@ -136,6 +138,7 @@
       ```
       
       kemudian tambahkan potongan file berikut
+      
       ![Text Alternatif](photos/g2.png)
       
    6) kemudian kita membuat file golang di dalam direktori yang sudah kita buatkan
@@ -146,6 +149,7 @@
       
       ![Text Alternatif](photos/g4.png)
    7) jalankan file yang sudah kita sebagai berikut
+   8) 
       ![Text Alternatif](photos/g5.png)
 
 
@@ -220,16 +224,19 @@
       ```
       ###### mesin1
       ![Text Alternatif](photos/t241.png)
-      ###### mesin1
+      ###### mesin2
       ![Text Alternatif](photos/t242.png)
       
       ubah konfigurasi pada mesin utama kita yaitu kita memasukkan ip dari masing” server
+      
       ![Text Alternatif](photos/t243.png)
       
       maka hasilnya sebagai berikut
+      
       ![Text Alternatif](photos/t244.png)
       
-      ika kita memtikan kedua mesin maka mesin utama akan menampilkan hasil berikut
+      jika kita memtikan kedua mesin maka mesin utama akan menampilkan hasil berikut
+      
       ![Text Alternatif](photos/t245.png)
 
 
